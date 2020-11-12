@@ -1,0 +1,119 @@
+[
+  {
+    "apiName": "Validate_UNDOFeeWaiver1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_UNDOFeeWaiver2",
+    "expected": [
+      {
+        "collectionForFee": {
+          "Arrangement Fees Fixed": [
+            {
+              "cashCollateralUtilizedAmount": null,
+              "retainedInterestAdvanceAmount": null,
+              "excessPaymentAdvanceAmount": null,
+              "collectionCurrency": "GBP",
+              "collectionReferenceNumber": null,
+              "paymentAmount": 0,
+              "retainedInterestUtilizedAmount": null,
+              "eventId": 1,
+              "collectionMethod": "REPAYMENT",
+              "collectionAmount": 920,
+              "excessUtilizedAmount": null,
+              "lastModifiedBy": "operator",
+              "eventType": "FEEWAIVR",
+              "cashCollateralAdvanceAmount": null,
+              "collectionDate": "2020-10-30",
+              "collectionChannel": null,
+              "shortfallGoodwillAmount": null,
+              "rentIncomeUtilizedAmount": null,
+              "createdBy": "operator",
+              "excessGoodwillAmount": null,
+              "waiverAmount": null,
+              "reversed": true,
+              "rentIncomeAmount": null
+            }
+          ]
+        },
+        "demandCollectionForFee": {
+          "Arrangement Fees Fixed": [
+            {
+              "waivedAmount": 920,
+              "capitalizedAmount": 0,
+              "lastModifiedBy": "operator",
+              "apportionedAmount": 0,
+              "demandId": 11926,
+              "createdBy": "operator",
+              "currency": "GBP",
+              "reversed": true
+            }
+          ]
+        },
+        "loan_id": 226,
+        "demandForFee": {
+          "Arrangement Fees Fixed": [
+            {
+              "eventId": 172,
+              "lastModifiedBy": "operator",
+              "eventType": "ADHOCFEE",
+              "trancheId": 7263,
+              "feeId": 60,
+              "demandType": "FEE",
+              "payByDate": null,
+              "accountFeeId": null,
+              "demandCurrency": "GBP",
+              "deleted": false,
+              "dueAmount": 920,
+              "createdBy": "operator",
+              "calculatedAmount": 0,
+              "demandDate": "2020-10-29",
+              "installmentNo": null,
+              "remarks": "Adhoc Fee",
+              "reversed": false
+            }
+          ],
+          "Prepayment Fees Slab": [
+            {
+              "eventId": 173,
+              "lastModifiedBy": "operator",
+              "eventType": "ADHOCFEE",
+              "trancheId": 7263,
+              "feeId": 59,
+              "demandType": "FEE",
+              "payByDate": null,
+              "accountFeeId": null,
+              "demandCurrency": "GBP",
+              "deleted": false,
+              "dueAmount": 875,
+              "createdBy": "operator",
+              "calculatedAmount": 0,
+              "demandDate": "2020-11-02",
+              "installmentNo": null,
+              "remarks": "Adhoc Fee",
+              "reversed": true
+            }
+          ]
+        }
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId",
+      "id",
+      "loanId",
+      "collectionId",
+      "eventId",
+      "feeId",
+      "trancheId"
+    ]
+  }
+]

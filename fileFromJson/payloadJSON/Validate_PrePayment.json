@@ -1,0 +1,74 @@
+[
+  {
+    "apiName": "Validate_PrePayment1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/transaction/repayment/advance",
+    "payload":
+      {
+  "loanId": 198,
+  "principalDetails": [],
+  "interestDetails": [],
+  "feeDetails": [],
+  "feeAccrualDataList": [],
+  "parentFeeDetails": null,
+  "overdueInterestDetails": [],
+  "penaltyInterestDetails": [],
+  "totalPenaltyPaidAmount": 0,
+  "feeWaiverAmount": 0,
+  "penaltyWaiverAmount": 0,
+  "customerRepayAmount": 23942.9,
+  "repaymentDate": "2020-10-09",
+  "finalRepayAmount": 23942.9,
+  "repaymentCurrency": "GBP",
+  "collectionMethod": "BNKTRASF",
+  "remarks": null,
+  "paymentAllocationMethod": "VERTICAL",
+  "totalFeeExpenseAmount": 0,
+  "cashCollateralUtilizationAmount": 0,
+  "cashCollateralAmount": 0,
+  "retainedInterestAmount": 0,
+  "retainedInterestUtilizationAmount": 0,
+  "rentIncomeAmount": 0,
+  "rentIncomeUtilizationAmount": 0,
+  "excessPaymentUtilizationAmount": 0,
+  "excessPaymentAdvanceAmount": 0,
+  "shortFallGoodwillAmount": 0,
+  "excessGoodwillAmount": 0,
+  "version": 2,
+  "excessShortfallType": "PREPYMNT",
+  "prepaymentType": "RGSCHDL",
+  "prepaidPrincipalAmount": 23923.76,
+  "prepaidInterestAmount": 19.14,
+  "prepaymentFees": [],
+  "totalPrepaidAmount": 23942.9,
+  "interestAccruedButNotPaid": 19.14,
+  "feeAccruedButNotPaid": 0,
+  "loanModelFlags": [
+    {
+      "periodNumber": 1,
+      "fixBalloon": false,
+      "fixPrincipalOrInstallment": true
+    }
+  ],
+  "committedAmount": 0,
+  "unCommittedAmount": 0,
+  "nadAmount": 0,
+  "interestApportionType": "CLTPRINS",
+  "reapportionFee": false,
+  "allowRedraw": false,
+  "redrawAmount": 0,
+  "channelId": null,
+  "openedFromClosure": false,
+  "advanceRepayment": true,
+  "regeneratedWithKnockOff": false,
+  "prepaidFeeAmount": 0,
+  "prePaymentAmount": 0
+}
+  },
+  {
+  	"apiName": "Validate_PrePayment2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/198",
+    "payload": []
+  }
+]

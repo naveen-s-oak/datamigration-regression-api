@@ -1,0 +1,40 @@
+[
+  {
+    "apiName": "Validate_Closure1",
+    "expected": {
+      "data": {
+        "entityId": "198",
+        "identifier": null,
+        "transactionIdentifier": null,
+        "amount": null,
+        "model": null
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_Closure2",
+    "expected": {
+      "data": {
+        "entityId": "198",
+        "identifier": null,
+        "transactionIdentifier": null,
+        "amount": null,
+        "model": null
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  }
+]

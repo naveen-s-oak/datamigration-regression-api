@@ -1,0 +1,24 @@
+[
+  {
+    "apiName": "Validate_PeriodicFee1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/loanaccount/adhocFee",
+    "payload": {
+      "loanId": 199,
+      "feeId": 28,
+      "eventType": "ADHOCFEE",
+      "feeAmount": 220,
+      "capitalizeToPrincipal": false,
+      "remarks": "",
+      "version": 2,
+      "adhocFeeDate": "2020-10-07",
+      "feesAccrued": false
+    }
+  },
+  {
+    "apiName": "Validate_PeriodicFee2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/getFeeCollectionStatus/199",
+    "payload": []
+  }
+]

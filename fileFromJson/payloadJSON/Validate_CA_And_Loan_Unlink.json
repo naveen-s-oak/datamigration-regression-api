@@ -1,0 +1,19 @@
+[
+  {
+    "apiName": "Validate_CA_And_Loan_Unlink1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/loanaccount/unlinkcreditarrangementtoloan",
+    "payload": {
+      "creditArrangementLoanMappingId": 16,
+      "creditArrangementId": 127,
+      "loanAccountId": 210,
+      "status": false
+    }
+  },
+  {
+    "apiName": "Validate_CA_And_Loan_Unlink2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/creditarrangement/ca/getCaId/127",
+    "payload": []
+  }
+]

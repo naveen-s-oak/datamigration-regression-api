@@ -1,0 +1,78 @@
+[
+  {
+    "apiName": "Validate_PeriodicFee1",
+    "expected": {
+      "data": {
+        "id": null,
+        "loanId": 199,
+        "feeId": 28,
+        "eventType": "ADHOCFEE",
+        "feeAmount": null,
+        "adhocFeeDate": null,
+        "reversed": null,
+        "reversalId": null,
+        "capitalizeToPrincipal": null,
+        "remarks": null,
+        "updateLastAppliedDate": false,
+        "accountFeeId": null,
+        "version": 3,
+        "createdOn": null,
+        "createdBy": null,
+        "lastModifiedOn": null,
+        "lastModifiedBy": null,
+        "feesAccrued": false
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_PeriodicFee2",
+    "expected": [
+      {
+        "loan_id": 199,
+        "demandForFee": {
+          "Periodic_Fixed": [
+            {
+              "id": 13852,
+              "loanId": 199,
+              "trancheId": 7228,
+              "eventType": "ADHOCFEE",
+              "eventId": 225,
+              "demandType": "FEE",
+              "feeId": 28,
+              "accountFeeId": null,
+              "installmentNo": null,
+              "demandDate": "2020-10-07",
+              "calculatedAmount": 0,
+              "dueAmount": 220,
+              "demandCurrency": "GBP",
+              "remarks": "Adhoc Fee",
+              "deleted": false,
+              "reversed": false,
+              "payByDate": null,
+              "createdOn": "2020-10-12T11:40:14.634Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-10-12T11:40:14.634Z",
+              "lastModifiedBy": "operator"
+            }
+          ]
+        },
+        "collectionForFee": {},
+        "demandCollectionForFee": {}
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "eventId",
+      "id"
+    ]
+  }
+]

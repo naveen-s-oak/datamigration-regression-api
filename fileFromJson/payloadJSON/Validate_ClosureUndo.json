@@ -1,0 +1,26 @@
+[
+  {
+    "apiName": "Validate_ClosureUndo1",
+    "apiMethod": "PUT",
+    "apiPath": "/api/portfolio/v1/transaction/undo/7772",
+    "payload": {
+      "reversalRemarks": "Undo closure for testing purpose",
+      "version": 7
+    }
+  },
+  {
+    "apiName": "Validate_ClosureUndo2",
+    "apiMethod": "PUT",
+    "apiPath": "/api/portfolio/v1/transaction/undo/7771",
+    "payload": {
+      "reversalRemarks": "Undo closure for testing purpose",
+      "version": 8
+    }
+  },
+  {
+    "apiName": "Validate_ClosureUndo3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/212",
+    "payload": []
+  }
+]

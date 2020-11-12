@@ -1,0 +1,56 @@
+  [
+  {
+    "apiName": "Validate_CA_Closure1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": []
+  },
+  {
+    "apiName": "Validate_CA_Closure2",
+    "expected": {
+      "creditArrangementId": 133,
+      "creditArrangementName": "HPP343",
+      "customerId": 87,
+      "amount": 750000,
+      "startDate": "2017-10-24",
+      "endDate": "2022-10-24",
+      "currencyCode": "GBP",
+      "approvedDate": "2020-10-28T11:22:07",
+      "status": "CLOSED",
+      "linkedAccountDetails": [
+        {
+          "approvedAmount": 10733.53,
+          "availableAmount": 0,
+          "consumedAmount": 10733.53,
+          "creditArrangementLoanAccountMappingId": 22,
+          "productType": "RCF",
+          "identifier": 216,
+          "loanAccountNumber": "BLF17Prod",
+          "accountStatus": "CLOSED",
+          "currencyCode": "GBP",
+          "principalAmount": 10733.53,
+          "liabilityPercentage": 100,
+          "parentLoanAccount": null,
+          "activeFacilityAmount": 0,
+          "loanType": "RCF",
+          "loanCategory": "NONLFLN",
+          "daysInArrears": 0,
+          "activeParentId": null,
+          "parent": false
+        }
+      ],
+      "externalId": null,
+      "externalSource": null,
+      "createdOn": "2020-10-28T14:34:50.384",
+      "createdBy": "operator",
+      "lastModifiedOn": "2020-10-28T14:34:50.384",
+      "lastModifiedBy": "operator",
+      "notes": "",
+      "drawnAmount": 10733.53,
+      "undrawnAmount": 739266.47,
+      "migratedCa": true
+    },
+    "ignore": [],
+    "commonIgnore": []
+  }
+]

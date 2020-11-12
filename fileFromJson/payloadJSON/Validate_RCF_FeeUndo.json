@@ -1,0 +1,17 @@
+[
+  {
+    "apiName": "Validate_RCF_FeeUndo1",
+    "apiMethod": "PUT",
+    "apiPath": "/api/portfolio/v1/transaction/undo/7775",
+    "payload": {
+      "reversalRemarks": "Fee Undo",
+      "version": 11
+    }
+  },
+  {
+    "apiName": "Validate_RCF_FeeUndo2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/217",
+    "payload": []
+  }
+]

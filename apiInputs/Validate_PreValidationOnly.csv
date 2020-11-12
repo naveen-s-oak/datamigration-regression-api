@@ -1,0 +1,2 @@
+testScenarioNumber,testObjective,urlParameter,expectedResponseCode
+1,Successful fetch,NA,200

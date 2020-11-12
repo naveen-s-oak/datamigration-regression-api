@@ -1,0 +1,37 @@
+[
+  {
+    "apiName": "Validate_RCF_PostActivationValidation_Four1",
+    "expected": ,
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier",
+      "interestAccruedNotDueNotPaid",
+      "daysInArrears",
+      "version"
+    ]
+  },
+  {
+    "apiName": "Validate_RCF_PostActivationValidation_Four2",
+    "expected": ,
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier",
+      "daysInArrears"
+    ]
+  },
+  {
+    "apiName": "Validate_RCF_PostActivationValidation_Four3",
+    "expected": ,
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier",
+      "daysInArrears"
+    ]
+  }
+]

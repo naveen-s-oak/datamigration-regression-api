@@ -1,0 +1,34 @@
+[
+  {
+    "apiName": "Validate_RCF_Restructure_Amount1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/previewForRestructure",
+    "payload": {
+      "topupAmount": 135000,
+      "facilityCommittedAmount": 135000,
+      "restructureDate": "2020-10-30",
+      "loanId": 215,
+      "version": 3,
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_RCF_Restructure_Amount2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/",
+    "payload": {
+      "topupAmount": 135000,
+      "facilityCommittedAmount": 135000,
+      "restructureDate": "2020-10-30",
+      "loanId": 215,
+      "version": 3,
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_RCF_Restructure_Amount3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/215",
+    "payload": []
+  }
+]

@@ -1,0 +1,13 @@
+[{
+		"apiName": "Validate_Closure1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/loanaccount/initiateclosure/198/2020-10-09",
+		"payload": []
+},
+{
+		"apiName": "Validate_Closure2",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/loanaccount/close/198/2020-10-09?closureReason=REDEEM",
+		"payload": []
+}
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "apiName": "Validate_CA_Closure1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/loanaccount/creditarrangement/closure/133",
+    "payload": {
+      "comments": "CA Closure"
+    }
+  },
+  {
+  	"apiName": "Validate_CA_Closure2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/creditarrangement/ca/getCaId/133",
+    "payload": []
+  }
+]

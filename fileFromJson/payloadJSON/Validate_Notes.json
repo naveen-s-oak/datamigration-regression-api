@@ -1,0 +1,18 @@
+[
+  {
+    "apiName": "Validate_Notes1",
+    "apiMethod": "POST",
+    "apiPath": "/api/office/v1/note",
+    "payload": {
+      "entityType": "loans",
+      "entityId": "BLF25Prod",
+      "notes": "<p>Sample Notes 1</p>"
+    }
+  },
+  {
+    "apiName": "Validate_Notes2",
+    "apiMethod": "GET",
+    "apiPath": "/api/office/v1/note/BLF25Prod/loans?pageIndex=0&size=10",
+    "payload": []
+  }
+]

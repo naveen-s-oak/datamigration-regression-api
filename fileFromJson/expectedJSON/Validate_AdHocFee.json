@@ -1,0 +1,81 @@
+[
+  {
+    "apiName": "Validate_AdHocFee1",
+    "expected": {
+      "data": {
+        "id": null,
+        "loanId": 196,
+        "feeId": 34,
+        "eventType": "ADHOCFEE",
+        "feeAmount": null,
+        "adhocFeeDate": null,
+        "reversed": null,
+        "reversalId": null,
+        "capitalizeToPrincipal": null,
+        "remarks": null,
+        "updateLastAppliedDate": false,
+        "accountFeeId": null,
+        "version": 3,
+        "createdOn": null,
+        "createdBy": null,
+        "lastModifiedOn": null,
+        "lastModifiedBy": null,
+        "feesAccrued": false
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_AdHocFee2",
+    "expected": [
+      {
+        "loan_id": 196,
+        "demandForFee": {
+          "Arrangement Fee (UAT)": [
+            {
+              "id": 13850,
+              "loanId": 196,
+              "trancheId": 7225,
+              "eventType": "ADHOCFEE",
+              "eventId": 223,
+              "demandType": "FEE",
+              "feeId": 34,
+              "accountFeeId": null,
+              "installmentNo": null,
+              "demandDate": "2020-10-09",
+              "calculatedAmount": 0,
+              "dueAmount": 120,
+              "demandCurrency": "GBP",
+              "remarks": "Adhoc Fee",
+              "deleted": false,
+              "reversed": false,
+              "payByDate": null,
+              "createdOn": "2020-10-12T10:50:52.615Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-10-12T10:50:52.615Z",
+              "lastModifiedBy": "operator"
+            }
+          ]
+        },
+        "collectionForFee": {},
+        "demandCollectionForFee": {}
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "loan_id",
+      "eventId",
+      "trancheId",
+      "demandDate",
+      "id"
+    ]
+  }
+]

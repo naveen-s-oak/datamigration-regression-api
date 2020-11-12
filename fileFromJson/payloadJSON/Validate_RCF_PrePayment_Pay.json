@@ -1,0 +1,73 @@
+[
+  {
+    "apiName": "Validate_RCF_PrePayment_Pay1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/transaction/repayment/advance",
+    "payload": {
+      "loanId": 216,
+      "principalDetails": [],
+      "interestDetails": [],
+      "feeDetails": [],
+      "feeAccrualDataList": [],
+      "parentFeeDetails": null,
+      "overdueInterestDetails": [],
+      "penaltyInterestDetails": [],
+      "totalPenaltyPaidAmount": 0,
+      "feeWaiverAmount": 0,
+      "penaltyWaiverAmount": 0,
+      "customerRepayAmount": 10738.19,
+      "repaymentDate": "2020-10-30",
+      "finalRepayAmount": 10738.19,
+      "repaymentCurrency": "GBP",
+      "collectionMethod": "BNKTRASF",
+      "remarks": null,
+      "paymentAllocationMethod": "VERTICAL",
+      "totalFeeExpenseAmount": 0,
+      "cashCollateralUtilizationAmount": 0,
+      "cashCollateralAmount": 0,
+      "retainedInterestAmount": 0,
+      "retainedInterestUtilizationAmount": 0,
+      "rentIncomeAmount": 0,
+      "rentIncomeUtilizationAmount": 0,
+      "excessPaymentUtilizationAmount": 0,
+      "excessPaymentAdvanceAmount": 0,
+      "shortFallGoodwillAmount": 0,
+      "excessGoodwillAmount": 0,
+      "version": 2,
+      "excessShortfallType": "PREPYMNT",
+      "prepaymentType": "RGSCHDL",
+      "prepaidPrincipalAmount": 10733.53,
+      "prepaidInterestAmount": 4.66,
+      "prepaymentFees": [],
+      "totalPrepaidAmount": 10738.19,
+      "interestAccruedButNotPaid": 4.66,
+      "feeAccruedButNotPaid": 0,
+      "loanModelFlags": [
+        {
+          "periodNumber": 1,
+          "fixBalloon": false,
+          "fixPrincipalOrInstallment": true
+        }
+      ],
+      "committedAmount": 10733.53,
+      "unCommittedAmount": 0,
+      "nadAmount": 0,
+      "interestApportionType": "CLTPRINS",
+      "reapportionFee": false,
+      "allowRedraw": false,
+      "redrawAmount": 10733.53,
+      "channelId": null,
+      "openedFromClosure": false,
+      "advanceRepayment": true,
+      "regeneratedWithKnockOff": false,
+      "prepaidFeeAmount": 0,
+      "prePaymentAmount": 0
+    }
+  },
+  {
+    "apiName": "Validate_RCF_PrePayment_Pay2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/216",
+    "payload": []
+  }
+]

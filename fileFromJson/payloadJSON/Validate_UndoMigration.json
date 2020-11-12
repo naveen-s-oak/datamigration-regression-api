@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_UndoMigration1",
+		"apiMethod": "PUT",
+		"apiPath": "/api/portfolio/v1/mambumigration/delete/300",
+		"payload": []
+}
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "apiName": "Validate_PartialFeeWaiver1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/fees/feeWaiver",
+    "payload": {
+      "loanId": 224,
+      "feeWaivedDate": "2020-10-28",
+      "remarks": "Partial Waive Off",
+      "waiverAmounts": {
+        "11925": 500
+      },
+      "version": 5
+    }
+  },
+  {
+    "apiName": "Validate_PartalFeeWaiver2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/getFeeCollectionStatus/224",
+    "payload":[]
+  }
+]

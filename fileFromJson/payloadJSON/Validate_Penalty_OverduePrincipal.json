@@ -1,0 +1,35 @@
+[
+  {
+    "apiName": "Validate_Penalty_OverduePrincipal1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/penaltyInterest/",
+    "payload": {
+      "penaltyInterestRate": "2.3",
+      "startDate": "2020-10-01",
+      "endDate": null,
+      "penalCalculationMethod": "OPPL",
+      "penaltyIntAccrEventType": "START",
+      "remarks": "Penalty for Loan BLF9Prod",
+      "loanId": 209
+    }
+  },
+  {
+    "apiName": "Validate_Penalty_OverduePrincipal2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/penaltyInterest/",
+    "payload": {
+      "penaltyInterestRate": 0,
+      "startDate": null,
+      "endDate": "2020-10-15",
+      "penaltyIntAccrEventType": "STOP",
+      "remarks": "Stopping penalty",
+      "loanId": 209
+    }
+  },
+  {
+    "apiName": "Validate_Penalty_OverduePrincipal3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/209",
+    "payload": []
+  }
+]

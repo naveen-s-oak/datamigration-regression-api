@@ -1,0 +1,98 @@
+[
+  {
+    "apiName": "Validate_Payby_Date1",
+    "expected": {
+      "data": {
+        "entityId": null,
+        "identifier": null,
+        "transactionIdentifier": null,
+        "amount": null,
+        "model": null
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn"
+    ]
+  },
+  {
+    "apiName": "Validate_Payby_Date2",
+    "expected": [
+      {
+        "disbursementData": {
+          "identifier": 7225,
+          "disbursementSequenceNumber": 1,
+          "disbursementAmount": 106637.37,
+          "availabilityDate": "2020-09-21",
+          "disbursementDate": "2020-09-21",
+          "actualDisbursementDate": "2020-09-21",
+          "loanId": 196,
+          "actualDisbursementAmount": 106637.37,
+          "status": "DISBRSED",
+          "unplanned": false,
+          "deleted": false,
+          "migratedTranche": true,
+          "trancheBalances": {
+            "id": 1387,
+            "trancheId": 7225,
+            "disbursedPrincipal": 106637.37,
+            "actualDisbursedDate": "2020-09-21Z",
+            "totalPrincipalPaid": 0,
+            "totalInterestPaid": 274.29,
+            "totalPenaltyPaid": 0,
+            "totalPaid": 0,
+            "principalBalance": 106911.66,
+            "accruedInterest": 0,
+            "accruedInterestBooked": 0,
+            "accruedPenaltyInterest": 0,
+            "accruedPenaltyInterestBooked": 0,
+            "interestRollupAmount": 0,
+            "lastInterestAppliedDate": null
+          },
+          "trancheAccountNumber": "BLF3Prod-1",
+          "createdOn": "2020-10-05T16:41:29.101",
+          "createdBy": "operator",
+          "lastModifiedOn": "2020-11-10T10:35:20.689",
+          "lastModifiedBy": "operator"
+        },
+        "loanReferenceRateHistory": {
+          "id": 4014,
+          "loanId": 196,
+          "trancheId": 7225,
+          "floatingRateKeyId": 23,
+          "businessDate": "2020-09-21",
+          "rateDate": "2020-09-21",
+          "fixedRate": null,
+          "spreadRate": 3.2,
+          "actualRefRate": 0.7118,
+          "adjustedRefRate": 0.7118,
+          "allInOneRate": 3.9118,
+          "eventType": "DSBRSMNT",
+          "eventId": null,
+          "deleted": false,
+          "interpolatedRate": false,
+          "trancheAccountNumber": null,
+          "interestRateType": null,
+          "refFloorRate": null,
+          "refCapRate": null,
+          "floatingRatesKey": null,
+          "createdOn": "2020-10-05T16:41:38.156Z"
+        },
+        "interestAccruedNotPaid": 297.9,
+        "bookedInterestPaid": 274.29,
+        "bookedInterestUnpaid": -274.29
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "id",
+      "trancheId",
+      "identifier",
+      "interestAccruedNotPaid"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[{
+    "queryName": "Validate_LoanActivation1",
+    "_comment": "TC1",
+    "mysqlQuery": "update testground.ln_loan_account SET status='TRNSOCMP' where id in ( select loan_id from ln_borrower_details where member_id in(select customer_id from credit_arrangement  where credit_arrangement_name='VSY369'));"
+  }
+]

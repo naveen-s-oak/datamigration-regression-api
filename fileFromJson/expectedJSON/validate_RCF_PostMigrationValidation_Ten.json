@@ -1,0 +1,102 @@
+[
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six1",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six2",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six3",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six4",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six5",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six6",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six7",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six8",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six9",
+    "_comment": "TC10",
+    "expectedTableValue": []
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six10",
+    "_comment": "TC10",
+    "expectedTableValue": []
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six11",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six12",
+    "_comment": "TC10",
+    "expectedTableValue": []
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six13",
+    "_comment": "TC10",
+    "expectedTableValue": []
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six14",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six15",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six16",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six17",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six18",
+    "_comment": "TC10",
+    "expectedTableValue": []
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six19",
+    "_comment": "TC10",
+    "expectedTableValue": 
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Six20",
+    "_comment": "TC10",
+    "expectedTableValue": []
+  }
+]

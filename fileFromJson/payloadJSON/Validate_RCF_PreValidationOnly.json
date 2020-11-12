@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_RCF_PreValidationOnly1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/mambumigration/validate?loanId=1050000056,1051000047,1051000048,1050000057,1050000058,1051000049,1051000050,1051000052,1051000053,1051000054,1051000055,1051000056,1051000057,1027000194,1051000051",
+		"payload": []
+}
+]

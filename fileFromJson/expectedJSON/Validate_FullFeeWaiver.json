@@ -1,0 +1,108 @@
+[
+  {
+    "apiName": "Validate_FullFeeWaiver1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_FullFeeWaiver2",
+    "expected": [
+      {
+        "loan_id": 223,
+        "demandForFee": {
+          "Arrangement Fees Fixed": [
+            {
+              "id": 11924,
+              "loanId": 223,
+              "trancheId": 7260,
+              "eventType": "ADHOCFEE",
+              "eventId": 170,
+              "demandType": "FEE",
+              "feeId": 60,
+              "accountFeeId": null,
+              "installmentNo": null,
+              "demandDate": "2020-10-28",
+              "calculatedAmount": 0,
+              "dueAmount": 550,
+              "demandCurrency": "GBP",
+              "remarks": "Adhoc Fee",
+              "deleted": false,
+              "reversed": false,
+              "payByDate": null,
+              "createdOn": "2020-10-30T15:33:39.684Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-10-30T15:33:39.684Z",
+              "lastModifiedBy": "operator"
+            }
+          ]
+        },
+        "collectionForFee": {
+          "Arrangement Fees Fixed": [
+            {
+              "id": 7012,
+              "loanId": 223,
+              "eventType": "FEEWAIVR",
+              "eventId": 9,
+              "collectionDate": "2020-10-28",
+              "collectionAmount": 550,
+              "paymentAmount": 0,
+              "cashCollateralUtilizedAmount": null,
+              "retainedInterestUtilizedAmount": null,
+              "rentIncomeUtilizedAmount": null,
+              "excessUtilizedAmount": null,
+              "waiverAmount": null,
+              "cashCollateralAdvanceAmount": null,
+              "retainedInterestAdvanceAmount": null,
+              "rentIncomeAmount": null,
+              "excessPaymentAdvanceAmount": null,
+              "shortfallGoodwillAmount": null,
+              "excessGoodwillAmount": null,
+              "collectionCurrency": "GBP",
+              "collectionChannel": null,
+              "collectionReferenceNumber": null,
+              "createdOn": "2020-11-04T09:37:58.386Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-11-04T09:37:58.386Z",
+              "lastModifiedBy": "operator",
+              "collectionMethod": "REPAYMENT",
+              "reversed": false
+            }
+          ]
+        },
+        "demandCollectionForFee": {
+          "Arrangement Fees Fixed": [
+            {
+              "id": 11667,
+              "loanId": 223,
+              "collectionId": 7012,
+              "demandId": 11924,
+              "apportionedAmount": 0,
+              "capitalizedAmount": 0,
+              "waivedAmount": 550,
+              "currency": "GBP",
+              "createdOn": "2020-11-04T09:37:58.387Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-11-04T09:37:58.387Z",
+              "lastModifiedBy": "operator",
+              "reversed": false
+            }
+          ]
+        }
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "id",
+      "loanId",
+      "collectionId",
+      "eventId"
+    ]
+  }
+]

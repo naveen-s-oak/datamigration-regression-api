@@ -1,0 +1,17 @@
+[
+  {
+    "apiName": "Validate_TransactionUndo1",
+    "apiMethod": "PUT",
+    "apiPath": "/api/portfolio/v1/transaction/undo/7767",
+    "payload": {
+      "reversalRemarks": "Test",
+      "version": 4
+    }
+  },
+  {
+    "apiName": "Validate_TransactionUndo2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/206",
+    "payload": []
+  }
+]

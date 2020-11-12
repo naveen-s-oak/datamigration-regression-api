@@ -1,0 +1,73 @@
+[
+  {
+    "apiName": "Validate_CA_And_Loan_Link1",
+    "expected": {
+      "data": {
+        "entityId": "127",
+        "identifier": "84",
+        "transactionIdentifier": null,
+        "amount": "760000.000000",
+        "model": null
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": []
+  },
+  {
+    "apiName": "Validate_CA_And_Loan_Link2",
+    "expected": {
+      "creditArrangementId": 127,
+      "creditArrangementName": "LIR341",
+      "customerId": 84,
+      "amount": 760000,
+      "startDate": "2020-09-01",
+      "endDate": "2027-10-29",
+      "currencyCode": "GBP",
+      "approvedDate": "2020-10-06T11:23:32",
+      "status": "ACTIVE",
+      "linkedAccountDetails": [
+        {
+          "approvedAmount": 280000,
+          "availableAmount": 0,
+          "consumedAmount": 280000,
+          "creditArrangementLoanAccountMappingId": 68,
+          "productType": "TERMLOAN",
+          "identifier": 210,
+          "loanAccountNumber": "BLF13Prod",
+          "accountStatus": "ACTIVE",
+          "currencyCode": "GBP",
+          "principalAmount": 280000,
+          "liabilityPercentage": 100,
+          "parentLoanAccount": null,
+          "activeFacilityAmount": 0,
+          "loanType": "TERMLOAN",
+          "loanCategory": "NONLFLN",
+          "daysInArrears": 5,
+          "activeParentId": null,
+          "parent": false
+        }
+      ],
+      "externalId": null,
+      "externalSource": null,
+      "createdOn": "2020-10-09T09:47:41.847",
+      "createdBy": "operator",
+      "lastModifiedOn": "2020-10-09T09:47:41.847",
+      "lastModifiedBy": "operator",
+      "notes": "",
+      "drawnAmount": 280000,
+      "undrawnAmount": 480000,
+      "migratedCa": true
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "accruedUptoRuntime",
+      "identifier",
+      "daysInArrears",
+      "creditArrangementLoanAccountMappingId",
+      "totalDues"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "apiName": "Validate_RCF_Penalty_OutstandingPrincipal1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/penaltyInterest/",
+    "payload": {
+  "penaltyInterestRate": "3.24",
+  "startDate": "2020-09-30",
+  "endDate": null,
+  "penalCalculationMethod": "OPPL",
+  "penaltyIntAccrEventType": "START",
+  "remarks": "Test",
+  "loanId": 214
+}
+  },
+  {
+    "apiName": "Validate_RCF_Penalty_OutstandingPrincipal2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/penaltyInterest/",
+    "payload": {
+  "penaltyInterestRate": 0,
+  "startDate": null,
+  "endDate": "2020-10-05",
+  "penaltyIntAccrEventType": "STOP",
+  "remarks": "Test",
+  "loanId": 214
+}
+  },
+  {
+    "apiName": "Validate_RCF_Penalty_OutstandingPrincipal3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/214",
+    "payload": []
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two1",
+    "_comment": "TC10",
+    "expectedTableValue": [{"notes": "", "amount": 7890000.000000, "status": "ACTIVE", "end_date": "2032-10-20", "start_date": "2018-08-15", "approval_date": "2020-10-26 07:02:01.000000", "currency_code": "GBP", "credit_arrangement_name": "PYN105", "credit_arrangement_comment": null}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two2",
+    "_comment": "TC10",
+    "expectedTableValue": [{"notes": "Successfully Migrated", "state": "MIGRATED", "is_deleted": 0, "mambu_loan_id": "1051000061", "transferout_amount": 41716.23000000, "mambu_loan_parent_id": "1051000061", "credit_arrangement_identifier": "PYN105"}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two3",
+    "_comment": "TC10",
+    "expectedTableValue": [{"version": 1, "nad_type": "CMTD", "loan_name": "---ST 1 IPD remaining---(365) Business Loans Revolving Credit Line (1 to 20 Quarters) LIBOR (Floor 0.63%) - Inn Collection Bidco Limited", "loan_type": "RCF", "loan_group": null, "nad_amount": 0.000000, "external_id": null, "loan_amount": 41716.230000, "locked_date": null, "topup_limit": 0.000000, "loan_comment": "", "penalty_rate": 0.0000000000, "currency_code": "GBP", "loan_category": "NONLFLN", "locked_option": null, "redraw_amount": 0.000000, "account_status": "PENACT", "external_source": null, "loan_term_value": 3, "committed_amount": 41716.230000, "loan_closed_date": "2021-01-26", "time_travel_loan": 0, "account_open_date": "2020-10-26", "account_substatus": "DISBURSD", "days_in_year_type": "DAYS_365", "approved_principal": 41716.230000, "days_in_month_type": "ACTUAL", "is_holiday_enabled": 1, "loan_creation_type": "MIGRATED", "product_identifier": "BL-01", "uncommitted_amount": 0.000000, "actual_matured_date": null, "drawdown_preference": "CMTD", "last_repayment_date": null, "parent_loan_account": null, "prepayment_strategy": "RESCNEXT", "rescheduled_account": null, "first_repayment_date": "2021-01-26", "topup_limit_utilised": 0, "active_parent_account": null, "capitalize_fee_to_nad": 0, "repayment_date_method": "SPD", "revolving_topup_limit": 0.000000, "stop_fee_amortization": 0, "expected_maturity_date": "2021-01-26", "is_this_parent_account": 0, "repayment_grace_period": null, "follows_custom_schedule": 0, "rent_income_int_bearing": 0, "ultimate_parent_account": null, "loan_term_frequency_type": "MONTHS", "number_of_topups_allowed": 0, "capitalize_penalty_to_nad": 0, "loan_relationship_manager": null, "payment_allocation_method": "VERTICAL", "capitalize_interest_to_nad": 0, "repayment_allocation_order": "PENALTY|FEES|INTEREST|PRNCIPAL", "active_loan_facility_amount": null, "cash_collateral_int_bearing": 0, "disbursement_payment_method": "METHOD1", "interest_calculation_method": "DECLINE", "repayment_grace_period_type": null, "rentained_interest_int_bearing": 0}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two4",
+    "_comment": "TC10",
+    "expectedTableValue": [{"created_by": "operator", "sequence_number": 1, "liability_percentage": 100.000000}, {"created_by": "operator", "sequence_number": 2, "liability_percentage": 100.000000}, {"created_by": "operator", "sequence_number": 3, "liability_percentage": 100.000000}, {"created_by": "operator", "sequence_number": 4, "liability_percentage": 100.000000}, {"created_by": "operator", "sequence_number": 5, "liability_percentage": 100.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two5",
+    "_comment": "TC10",
+    "expectedTableValue": [{"a_type": "BUSINESS", "surname": "-", "sic_code": null, "is_member": 1, "created_by": "operator", "given_name": "RCF - Migration only", "occupation": null, "middle_name": null, "legal_status": null, "current_state": "ACTIVE", "date_of_birth": null, "sic_code_type": null, "customer_title": null, "assigned_office": null, "business_status": null, "external_source": null, "assigned_employee": null, "organization_name": "RCF - Migration only", "reference_customer": null, "account_beneficiary": null, "crm_customer_status": "active"}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two6",
+    "_comment": "TC10",
+    "expectedTableValue": [{"a_type": "PHONE", "a_group": "BUSINESS", "a_value": "678567890", "validated": 1, "preference_level": null}, {"a_type": "MOBILE", "a_group": "BUSINESS", "a_value": "7890789089", "validated": 1, "preference_level": null}, {"a_type": "EMAIL", "a_group": "BUSINESS", "a_value": "simple@simplest.com", "validated": 1, "preference_level": null}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two7",
+    "_comment": "TC10",
+    "expectedTableValue": [{"city": "London", "region": "London", "street": "#101, Paddington street", "country": "UK", "street2": "London", "postal_code": "12345", "country_code": "UK"}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two8",
+    "_comment": "TC10",
+    "expectedTableValue": [{"total_paid": 0.000000, "fee_balance": 0.000000, "total_fee_paid": 0.000000, "undrawn_balance": 0.000000, "excess_pay_advance": 0.000000, "total_penalty_paid": 0.000000, "excess_pay_utilized": 0.000000, "last_disbursed_date": "2020-10-26", "next_rate_reset_date": null, "rent_income_utilized": 0.000000, "cash_collateral_advance": 0.000000, "rent_income_advance_amt": 0.000000, "cash_collateral_utilized": 0.000000, "retained_interest_advance": 0.000000, "retained_interest_utilized": 0.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two9",
+    "_comment": "TC10",
+    "expectedTableValue": [{"reversed": 0, "penalty_due": 0.000000, "interest_due": 0.000000, "accrued_interest": 0.00000000, "overdue_interest": 0.000000, "outstanding_balance": 41716.230000, "total_interest_paid": 0.000000, "last_rate_reset_date": "2020-10-26", "total_principal_paid": 0.000000, "accrued_interest_booked": 0.00, "total_interest_rolledup": 0.000000, "penalty_accrued_not_paid": 0.000000, "interest_accrued_not_paid": 0.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two10",
+    "_comment": "TC10",
+    "expectedTableValue": [{"total_paid": 0.000000, "accrued_interest": 0.00000000, "penalty_int_accr": 0.00000000, "principal_balance": 41716.230000, "total_penalty_paid": 0.000000, "total_interest_paid": 0.000000, "total_principal_paid": 0.000000, "actual_disbursed_date": "2020-10-26", "interest_rollup_amount": 0.000000, "accrued_interest_booked": 0.00, "penalty_int_accr_booked": 0.00, "actual_disbursed_principal": 41716.230000, "last_interest_applied_date": null}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two11",
+    "_comment": "TC10",
+    "expectedTableValue": [{"remarks": null, "reversed": 0, "old_loan_status": "ACTIVE", "excess_pay_amount": 0.000000, "next_rate_reset_date": null, "cash_collateral_amount": 0.000000, "post_validation_status": "VALDATED", "make_whole_fee_collected": 0.000000, "retained_interest_amount": 0.000000, "total_disbursed_principal": 41716.230000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two12",
+    "_comment": "TC10",
+    "expectedTableValue": [{"deleted": 0, "rate_date": "2020-10-26", "event_type": "CRETLOAN", "fixed_rate": null, "spread_rate": 4.0000000000, "business_date": "2020-10-26", "actual_ref_rate": 0.6300000000, "all_in_one_rate": 4.6300000000, "adjusted_ref_rate": 0.6300000000, "floating_rate_key_id": 23}, {"deleted": 0, "rate_date": "2020-10-26", "event_type": "DSBRSMNT", "fixed_rate": null, "spread_rate": 4.0000000000, "business_date": "2020-10-26", "actual_ref_rate": 0.6300000000, "all_in_one_rate": 4.6300000000, "adjusted_ref_rate": 0.6300000000, "floating_rate_key_id": 23}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two13",
+    "_comment": "TC10",
+    "expectedTableValue": [{"due_date": "2021-01-26", "from_date": "2020-10-26", "total_due": 42203.060000, "pay_by_date": "2021-01-26", "penalty_due": 0.000000, "interest_due": 486.830000, "is_completed": 0, "model_number": 1, "payment_date": null, "penalty_paid": 0.000000, "interest_paid": 0.000000, "period_number": 1, "principal_due": 41716.230000, "overdue_amount": 0.000000, "principal_paid": 0.000000, "fee_capitalised": 0.000000, "grace_upto_date": null, "installment_date": "2021-01-26", "interest_accrued": 486.83000000, "capitalized_interest": 0.000000, "interest_due_for_ipd": 486.830000, "interest_accrued_for_ipd": 486.83000000, "outstanding_loan_balance": 0.000000, "penalty_interest_capitalised": 0.000000, "manually_capitalized_interest": 0.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two14",
+    "_comment": "TC10",
+    "expectedTableValue": [{"gn_or_ipr": "GNI", "fix_balloon": 0, "interest_key": 23, "ref_cap_rate": 50.0000000000, "interest_rate": 4.0000000000, "period_number": 1, "balloon_amount": 0.000000, "is_last_period": 1, "ref_floor_rate": 0.6300000000, "principal_amount": 41716.230000, "initial_principal": 41716.230000, "calculation_method": "BSP", "installment_amount": 0.000000, "interest_rate_type": "FLOATING", "principal_for_period": 41716.230000, "first_rate_reset_date": "2021-01-26", "outstanding_principal": 0.000000, "period_frequency_type": "MONTHS", "period_frequency_value": 3, "interest_repricing_method": "IPD", "compounding_frequency_type": "MONTHS", "compounding_frequency_value": 0, "fix_principal_or_installment": 1, "interest_repay_frequency_type": "MONTHS", "interest_repay_frequency_value": 3, "principal_repay_frequency_type": "MONTHS", "principal_repay_frequency_value": 3, "interest_repricing_frequency_type": "MONTHS", "outstanding_interest_repay_method": "SIN", "interest_repricing_frequency_value": 3}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two15",
+    "_comment": "TC10",
+    "expectedTableValue": [{"nad_redraw_amount": 0.000000, "total_drawn_amount": 41716.230000, "nad_utilized_amount": 0.000000, "total_undrawn_amount": 0.000000, "nad_unutilized_amount": 0.000000, "committed_drawn_amount": 41716.230000, "committed_redraw_amount": 0.000000, "committed_undrawn_amount": 0.000000, "uncommitted_drawn_amount": 0.000000, "uncommitted_redraw_amount": 0.000000, "uncommitted_undrawn_amount": 0.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two16",
+    "_comment": "TC10",
+    "expectedTableValue": [{"bm": "HTC", "sppi": 1, "version": 1, "measurement": "AMC", "accrued_fees": 0.000000, "next_ecl_date": null, "provision_stage": "STAGE0", "unamortised_fees": 0.000000, "last_ecl_run_date": null, "last_ecl_run_time": null, "parameter_remarks": null, "eir_cashflow_ref_id": null, "return_on_investment": 0.000000, "classification_remarks": null, "effective_interest_rate": 4.6300000000, "unamortised_modification_gain_loss": 0.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two17",
+    "_comment": "TC10",
+    "expectedTableValue": [{"year": 1, "loss_given_default": 0.000000, "probability_of_default": 0.000000}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two18",
+    "_comment": "TC10",
+    "expectedTableValue": [{"status": "DISBRSED", "del_flag": 0, "unplanned": 0, "is_migrated": 1, "disbursement_date": "2020-10-26", "disbursement_amount": 41716.230000, "actual_disbursement_date": "2020-10-26", "actual_disbursement_amount": 41716.230000, "disbursement_sequence_number": 1}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two19",
+    "_comment": "TC10",
+    "expectedTableValue": [{"status": "OPEN", "summary": "Task for migration", "due_Date": "2020-11-26", "linked_to": "CUSTOMER", "close_date": null, "description": "Hi  ,<div><br></div><div>Test Mail send for SMTP use.<span style=\"white-space:pre\">\t</span></div>", "linked_to_id": "931361790", "cust_identifier": "931361790"}]
+  },
+  {
+    "queryName": "validate_RCF_PostMigrationValidation_Two20",
+    "_comment": "TC10",
+    "expectedTableValue": [{"model_id": 1, "period_number": 1, "period_status": null, "principal_due": 41716.230000, "interest_period": 1, "installment_date": "2021-01-26", "ul_period_number": 1, "ul_principal_due": 41716.230000, "ul_installment_date": "2021-01-26"}]
+  }
+]

@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_RCF_ActivationLoan_Three1",
+		"apiMethod": "PUT",
+		"apiPath": "/api/portfolio/v1/loanmigration/transferInCA/136",
+		"payload": []
+ }
+]

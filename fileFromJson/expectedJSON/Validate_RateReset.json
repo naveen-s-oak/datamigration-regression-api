@@ -1,0 +1,22 @@
+[
+  {
+    "apiName": "Validate_RateReset1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_RateReset2",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  }
+]

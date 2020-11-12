@@ -1,0 +1,22 @@
+[
+  {
+    "apiName": "Validate_RCF_LateRepayment1",
+    "apiMethod": "POST",
+    "apiPath": "http://cbdevint.acornmachine-it.com/api/portfolio/v1/transaction/repayment",
+    "payload": {
+      "repaymentDate": "2020-10-20",
+      "customerRepayAmount": 5698.79,
+      "collectionMethod": "BNKTRASF",
+      "channelId": null,
+      "loanId": 214,
+      "repaymentCurrency": "GBP",
+      "version": 2
+    }
+  },
+  {
+    "apiName": "Validate_RCF_LateRepayment2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/214",
+    "payload": []
+  }
+]

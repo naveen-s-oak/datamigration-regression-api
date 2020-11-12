@@ -1,0 +1,107 @@
+[
+  {
+    "apiName": "Validate_PartialFeeWaiver1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_PartialFeeWaiver2",
+    "expected": [
+      {
+        "loan_id": 224,
+        "demandForFee": {
+          "Prepayment Fees Slab": [
+            {
+              "id": 11925,
+              "loanId": 224,
+              "trancheId": 7261,
+              "eventType": "ADHOCFEE",
+              "eventId": 171,
+              "demandType": "FEE",
+              "feeId": 59,
+              "accountFeeId": null,
+              "installmentNo": null,
+              "demandDate": "2020-10-28",
+              "calculatedAmount": 0,
+              "dueAmount": 750,
+              "demandCurrency": "GBP",
+              "remarks": "Adhoc Fee",
+              "deleted": false,
+              "reversed": false,
+              "payByDate": null,
+              "createdOn": "2020-10-30T15:34:09.953Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-10-30T15:34:09.953Z",
+              "lastModifiedBy": "operator"
+            }
+          ]
+        },
+        "collectionForFee": {
+          "Prepayment Fees Slab": [
+            {
+              "id": 7016,
+              "loanId": 224,
+              "eventType": "FEEWAIVR",
+              "eventId": 10,
+              "collectionDate": "2020-10-28",
+              "collectionAmount": 500,
+              "paymentAmount": 0,
+              "cashCollateralUtilizedAmount": null,
+              "retainedInterestUtilizedAmount": null,
+              "rentIncomeUtilizedAmount": null,
+              "excessUtilizedAmount": null,
+              "waiverAmount": null,
+              "cashCollateralAdvanceAmount": null,
+              "retainedInterestAdvanceAmount": null,
+              "rentIncomeAmount": null,
+              "excessPaymentAdvanceAmount": null,
+              "shortfallGoodwillAmount": null,
+              "excessGoodwillAmount": null,
+              "collectionCurrency": "GBP",
+              "collectionChannel": null,
+              "collectionReferenceNumber": null,
+              "createdOn": "2020-11-04T09:54:33.834Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-11-04T09:54:33.834Z",
+              "lastModifiedBy": "operator",
+              "collectionMethod": "REPAYMENT",
+              "reversed": false
+            }
+          ]
+        },
+        "demandCollectionForFee": {
+          "Prepayment Fees Slab": [
+            {
+              "id": 11675,
+              "loanId": 224,
+              "collectionId": 7016,
+              "demandId": 11925,
+              "apportionedAmount": 0,
+              "capitalizedAmount": 0,
+              "waivedAmount": 500,
+              "currency": "GBP",
+              "createdOn": "2020-11-04T09:54:33.834Z",
+              "createdBy": "operator",
+              "lastModifiedOn": "2020-11-04T09:54:33.834Z",
+              "lastModifiedBy": "operator",
+              "reversed": false
+            }
+          ]
+        }
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "id",
+      "loanId",
+      "collectionId"
+    ]
+  }
+]

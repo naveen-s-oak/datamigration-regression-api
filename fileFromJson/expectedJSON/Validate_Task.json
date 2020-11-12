@@ -1,0 +1,62 @@
+[
+  {
+    "apiName": "Validate_Task1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "preValidationJobReferenceId"
+    ]
+  },
+  {
+    "apiName": "Validate_Task2",
+    "expected": {
+      "content": [
+        {
+          "identifier": 24,
+          "summary": "Sample Task 1",
+          "linkedTo": "ACCOUNT",
+          "linkedToId": "BLF25Prod",
+          "description": "<p>Sample Task1</p>",
+          "status": "OPEN",
+          "assignedType": "GROUP",
+          "assigned_to_id": "Operations",
+          "picked_by": null,
+          "notes": null,
+          "dueDate": "2021-02-28",
+          "closedDate": null,
+          "createdOn": "2020-11-04T10:57:02.589",
+          "createdBy": "operator",
+          "lastModifiedOn": "2020-11-04T10:57:02.589",
+          "lastModifiedBy": "operator",
+          "customerName": "Lifecycle 2",
+          "customerId": 88,
+          "customerIdentifier": null
+        }
+      ],
+      "totalElements": 1,
+      "last": true,
+      "totalPages": 1,
+      "numberOfElements": 1,
+      "sort": [
+        {
+          "direction": "ASC",
+          "property": "identifier",
+          "ignoreCase": false,
+          "nullHandling": "NATIVE",
+          "ascending": true
+        }
+      ],
+      "first": true,
+      "size": 10,
+      "number": 0
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier"
+    ]
+  }
+]

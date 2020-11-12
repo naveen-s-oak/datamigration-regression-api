@@ -1,0 +1,35 @@
+[
+  {
+    "apiName": "Validate_Penalty_OutstandingPrincipal1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/penaltyInterest/",
+    "payload": {
+      "penaltyInterestRate": "3.2",
+      "startDate": "2020-10-06",
+      "endDate": null,
+      "penalCalculationMethod": "OPPL",
+      "penaltyIntAccrEventType": "START",
+      "remarks": "Outstanding principal penalty",
+      "loanId": 203
+    }
+  },
+  {
+    "apiName": "Validate_Penalty_OutstandingPrincipal2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/penaltyInterest/",
+    "payload": {
+      "penaltyInterestRate": 0,
+      "startDate": null,
+      "endDate": "2020-10-09",
+      "penaltyIntAccrEventType": "STOP",
+      "remarks": "Outstanding principal penalty",
+      "loanId": 203
+    }
+  },
+  {
+    "apiName": "Validate_Penalty_OutstandingPrincipal3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/203",
+    "payload": []
+  }
+]

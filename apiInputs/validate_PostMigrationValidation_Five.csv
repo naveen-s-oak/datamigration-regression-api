@@ -1,0 +1,21 @@
+testScenarioNumber,testObjective,urlParameter,expectedResponseCode
+1,Successful fetch,NA,200
+2,Successful fetch,NA,200
+3,Successful fetch,NA,200
+4,Successful fetch,NA,200
+5,Successful fetch,NA,200
+6,Successful fetch,NA,200
+7,Successful fetch,NA,200
+8,Successful fetch,NA,200
+9,Successful fetch,NA,200
+10,Successful fetch,NA,200
+11,Successful fetch,NA,200
+12,Successful fetch,NA,200
+13,Successful fetch,NA,200
+14,Successful fetch,NA,200
+15,Successful fetch,NA,200
+16,Successful fetch,NA,200
+17,Successful fetch,NA,200
+18,Successful fetch,NA,200
+19,Successful fetch,NA,200
+20,Successful fetch,NA,200

@@ -1,0 +1,13 @@
+[{
+		"apiName": "Validate_Interest_Batch1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/loanaccount/interestRollup/200?curDate=2020-11-02",
+		"payload": []
+},
+{
+		"apiName": "Validate_Interest_Batch2",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/200",
+		"payload": []
+}
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "apiName": "Validate_PostActivationValidation_Nine1",
+    "expected": ,
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier",
+      "interestAccruedNotDueNotPaid",
+      "daysInArrears",
+      "version"
+    ]
+  },
+  {
+    "apiName": "Validate_PostActivationValidation_Nine2",
+    "expected": ,
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier",
+      "daysInArrears"
+    ]
+  },
+  {
+    "apiName": "Validate_PostActivationValidation_Nine3",
+    "expected": ,
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "identifier",
+      "daysInArrears"
+    ]
+  }
+]

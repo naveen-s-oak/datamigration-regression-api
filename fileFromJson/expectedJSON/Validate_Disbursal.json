@@ -1,0 +1,72 @@
+[
+  {
+    "apiName": "Validate_Disbursal1",
+    "expected": {
+      "data": {
+        "entityId": "200",
+        "identifier": "BLF7Prod",
+        "transactionIdentifier": "23933",
+        "amount": "300000",
+        "model": null
+      },
+      "errorResponse": null
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "transactionIdentifier"
+    ]
+  },
+  {
+    "apiName": "Validate_Disbursal2",
+    "expected": [
+      {
+        "id": 23933,
+        "loanId": 200,
+        "eventType": "DSBRSMNT",
+        "eventId": 3701,
+        "eventMasterId": 7793,
+        "captlizeToPrincipal": false,
+        "transactionDate": "2020-10-09",
+        "transactionAmount": 300000,
+        "transactionCurrency": "GBP",
+        "reversalEventType": null,
+        "reversalEventId": null,
+        "reversalEventDate": null,
+        "reverseTransactionRef": null,
+        "allowUndoRedo": true,
+        "redoable": false,
+        "createdOn": "2020-10-09T17:18:29.227Z",
+        "createdBy": "operator",
+        "lastModifiedOn": "2020-10-09T17:18:29.227Z",
+        "lastModifiedBy": "operator",
+        "journalEntry": null,
+        "committedAmount": null,
+        "unCommittedAmount": null,
+        "nadAmount": null,
+        "mambuClientRequestBody": null,
+        "loanVersion": 3,
+        "parentLoanVersion": null,
+        "activityLogBody": null,
+        "parentLoanId": null,
+        "loanAccountNumber": "BLF7Prod",
+        "accountName": "----Just approved----#TEST (365) Business Loans (1 to 60 Months) LIBOR (Floor 0.69%) - Libor Test Loan",
+        "penaltyAmount": null,
+        "transactionChannelIdentifier": null,
+        "allInRate": null,
+        "reversed": false,
+        "reversible": true
+      }
+    ],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "id",
+      "eventId",
+      "eventMasterId",
+      "loanVersion"
+    ]
+  }
+]

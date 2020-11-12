@@ -1,0 +1,51 @@
+[
+  {
+    "apiName": "Validate_Notes1",
+    "expected": [],
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn"
+    ]
+  },
+  {
+    "apiName": "Validate_Notes2",
+    "expected": {
+      "content": [
+        {
+          "id": 55,
+          "entityId": "BLF25Prod",
+          "entityType": "loans",
+          "notes": "<p>Sample Notes 1</p>",
+          "createdBy": "operator",
+          "createdOn": "2020-11-04T11:06:23.427",
+          "lastModifiedBy": "operator",
+          "lastModifiedOn": "2020-11-04T11:06:23.427",
+          "caName": null
+        }
+      ],
+      "totalElements": 1,
+      "last": true,
+      "totalPages": 1,
+      "numberOfElements": 1,
+      "sort": [
+        {
+          "direction": "DESC",
+          "property": "id",
+          "ignoreCase": false,
+          "nullHandling": "NATIVE",
+          "ascending": false
+        }
+      ],
+      "first": true,
+      "size": 10,
+      "number": 0
+    },
+    "ignore": [],
+    "commonIgnore": [
+      "createdOn",
+      "lastModifiedOn",
+      "id"
+    ]
+  }
+]

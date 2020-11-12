@@ -1,0 +1,53 @@
+[
+  {
+    "apiName": "Validate_Disbursal1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/transaction/disburseLoan",
+    "payload": {
+      "disbursementDate": "2020-10-09",
+      "disbursementAmount": 300000,
+      "repaymentDateMethod": "SPD",
+      "firstRepaymentDate": "2020-11-02",
+      "feeCollectionMethod": "NETOFF",
+      "finalDisbursementAmount": 300000,
+      "actualCustomerPayout": 299990,
+      "loanClosedDate": "2022-11-02",
+      "firstRateResetDate": "2020-11-02",
+      "interpolatedRate": 0,
+      "holidayEnabled": true,
+      "transactionSource": "TSaccAsset",
+      "channelId": null,
+      "showPaymentChannel": false,
+      "feeList": [
+        {
+          "feeName": "Exit Fee",
+          "feeType": "INCOME",
+          "plannedAmount": 0,
+          "actualAmount": 10,
+          "interestRate": "",
+          "feeId": 31,
+          "feeAccountMappingId": null,
+          "deferredAmount": 0,
+          "totalFeeDue": 0
+        }
+      ],
+      "loanId": 200,
+      "version": 2,
+      "externalId": null,
+      "channel": null,
+      "loanModelFlags": [
+        {
+          "periodNumber": 1,
+          "fixBalloon": false,
+          "fixPrincipalOrInstallment": true
+        }
+      ]
+    }
+  },
+  {
+    "apiName": "Validate_Disbursal2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/200",
+    "payload": []
+  }
+]

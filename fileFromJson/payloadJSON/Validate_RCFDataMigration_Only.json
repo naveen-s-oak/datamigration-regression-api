@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_RCFDataMigration_Only1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/mambumigration/migrate/jr_30b1a3c151170379c4e7f0f2790dbf17eb32b2b43f393c71e08fb74c5619e8b1",
+		"payload": []
+}
+]

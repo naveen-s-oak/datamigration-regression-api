@@ -1,0 +1,13 @@
+[{
+		"apiName": "Validate_AccrualInterest1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/loanaccount/accrueInterestCommand/203?curDate=2020-10-02",
+		"payload": []
+},
+{
+		"apiName": "Validate_AccrualInterest2",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/203",
+		"payload": []
+}
+]

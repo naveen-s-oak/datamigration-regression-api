@@ -1,0 +1,22 @@
+[
+  {
+    "apiName": "Validate_Task1",
+    "apiMethod": "POST",
+    "apiPath": "/api/office/v1/tasks",
+    "payload": {
+      "summary": "Sample Task 1",
+      "linkedTo": "ACCOUNT",
+      "linkedToId": "BLF25Prod",
+      "assignedType": "GROUP",
+      "assigned_to_id": "Operations",
+      "dueDate": "2021-02-28",
+      "description": "<p>Sample Task1</p>"
+    }
+  },
+  {
+    "apiName": "Validate_Task2",
+    "apiMethod": "GET",
+    "apiPath": "/api/office/v1/tasks/search?pageIndex=0&size=10&linkedTo=ACCOUNT&linkedToId=BLF25Prod&sortColumn=summary&sortDirection=ASC&showClosedTaskFlag=false",
+    "payload": []
+  }
+]

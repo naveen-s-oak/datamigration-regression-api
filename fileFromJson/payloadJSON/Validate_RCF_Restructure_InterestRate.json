@@ -1,0 +1,54 @@
+[
+  {
+    "apiName": "Validate_RCF_Restructure_InterestRate1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/previewForRestructure",
+    "payload": {
+  "newInterestSettings": {
+    "newInterestRateType": "FIXED",
+    "newMargin": "2.75",
+    "newIndex": null,
+    "newFloorRate": null,
+    "newCapRate": null,
+    "interpolatedRate": null,
+    "applyRateReset": null,
+    "newInterestRepricingFrequency": null,
+    "newInterestRepricingMethod": null,
+    "newNextRateResetDate": null
+  },
+  "restructureDate": "2020-10-29",
+  "loanId": 214,
+  "version": 2,
+  "holidayEnabled": true
+}
+  },
+  {
+    "apiName": "Validate_RCF_Restructure_InterestRate2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/",
+    "payload": {
+  "newInterestSettings": {
+    "newInterestRateType": "FIXED",
+    "newMargin": "2.75",
+    "newIndex": null,
+    "newFloorRate": null,
+    "newCapRate": null,
+    "interpolatedRate": null,
+    "applyRateReset": null,
+    "newInterestRepricingFrequency": null,
+    "newInterestRepricingMethod": null,
+    "newNextRateResetDate": null
+  },
+  "restructureDate": "2020-10-29",
+  "loanId": 214,
+  "version": 2,
+  "holidayEnabled": true
+}
+  },
+  {
+    "apiName": "Validate_RCF_Restructure_InterestRate3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/214",
+    "payload": []
+  }
+]

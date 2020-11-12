@@ -1,0 +1,22 @@
+[
+  {
+    "apiName": "Validate_FullFeeWaiver1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/fees/feeWaiver",
+    "payload": {
+      "loanId": 223,
+      "feeWaivedDate": "2020-10-28",
+      "remarks": "Full Waiver",
+      "waiverAmounts": {
+        "11924": 550
+      },
+      "version": 4
+    }
+  },
+  {
+    "apiName": "Validate_FullFeeWaiver2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/getFeeCollectionStatus/223",
+    "payload":[]
+  }
+]

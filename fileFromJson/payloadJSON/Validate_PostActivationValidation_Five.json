@@ -1,0 +1,17 @@
+[{
+		"apiName": "Validate_PostActivationValidation_Five1",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/200",
+		"payload": []
+},{
+		"apiName": "Validate_PostActivationValidation_Five2",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/creditarrangement/ca/getCaId/118",
+		"payload": []
+},{
+		"apiName": "Validate_PostActivationValidation_Five3",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanmigration/transferInLoan/200",
+		"payload": []
+}
+]

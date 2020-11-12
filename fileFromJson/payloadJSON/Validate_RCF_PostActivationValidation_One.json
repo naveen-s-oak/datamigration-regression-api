@@ -1,0 +1,17 @@
+[{
+		"apiName": "Validate_RCF_PostActivationValidation_One1",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/214",
+		"payload": []
+},{
+		"apiName": "Validate_RCF_PostActivationValidation_One2",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/creditarrangement/ca/getCaId/130",
+		"payload": []
+},{
+		"apiName": "Validate_RCF_PostActivationValidation_One3",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanmigration/transferInLoan/214",
+		"payload": []
+}
+]

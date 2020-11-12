@@ -1,0 +1,3 @@
+testScenarioNumber,testObjective,urlParameter,expectedResponseCode
+1,Interest Batch Application,NA,202
+2,Interest Batch Application,NA,200

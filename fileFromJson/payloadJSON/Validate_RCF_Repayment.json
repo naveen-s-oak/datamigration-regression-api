@@ -1,0 +1,22 @@
+[
+  {
+    "apiName": "Validate_RCF_Repayment1",
+    "apiMethod": "POST",
+    "apiPath": "api/portfolio/v1/transaction/repayment",
+    "payload": {
+  "repaymentDate": "2020-10-26",
+  "customerRepayAmount": 6022,
+  "collectionMethod": "BNKTRASF",
+  "channelId": null,
+  "loanId": 220,
+  "repaymentCurrency": "GBP",
+  "version": 3
+}
+  },
+  {
+    "apiName": "Validate_RCF_Repayment2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/220",
+    "payload": []
+  }
+]

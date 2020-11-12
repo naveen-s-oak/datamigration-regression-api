@@ -1,0 +1,13 @@
+[{
+		"apiName": "Validate_RateReset1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/loanaccount/ratereset/loan?loanId=200&date=2020-11-02",
+		"payload": []
+},
+{
+		"apiName": "Validate_RateReset2",
+		"apiMethod": "GET",
+		"apiPath": "/api/portfolio/v1/loanaccount/200",
+		"payload": []
+}
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "apiName": "Validate_ReStructure_Tenor1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/previewForRestructure",
+    "payload": {
+      "newLoanClosedDate": "2023-02-08",
+      "restructureDate": "2020-09-07",
+      "loanId": 203,
+      "version": 2,
+      "newLoanModel": [
+        {
+          "identifier": null,
+          "periodNumber": 1,
+          "periodFrequency": {
+            "value": 31,
+            "term": "MONTHS"
+          },
+          "calculationMethod": "INO",
+          "principalRepayFrequency": {
+            "value": 0,
+            "term": "MONTHS"
+          },
+          "amortizationPeriod": {
+            "value": 0,
+            "term": "MONTHS"
+          },
+          "interestRepayFrequency": {
+            "value": 1,
+            "term": "MONTHS"
+          },
+          "outstandingInterestRepaymentMethod": "SIN",
+          "compoundingFrequency": {
+            "value": 0,
+            "term": "MONTHS"
+          },
+          "interestRateType": "FIXED",
+          "interestKey": null,
+          "interestKeyName": null,
+          "interestKeyValue": null,
+          "refFloorRate": null,
+          "refCapRate": null,
+          "interestRate": 2.8,
+          "interestRepricingFrequency": null,
+          "interestRepricingMethod": null,
+          "firstRateResetDate": null,
+          "initialPrincipal": 298489.14,
+          "principalForPeriod": 0,
+          "principalAmount": 0,
+          "balloonAmount": 298489.14,
+          "outstandingBalance": 0,
+          "installmentAmount": 0,
+          "referenceRateIndex": 0,
+          "gnOipr": null,
+          "isLastPeriod": true,
+          "fixBalloon": false,
+          "fixPrincipalOrInstallment": true,
+          "bspRepaymentPeriod": null,
+          "ulCalculationMethod": null,
+          "restructuringState": "F",
+          "principalForNextPeriodForBrokenModel": null,
+          "outstandingForNextPeriodForBrokenModel": 0,
+          "periodFrequencyForNextPeriod": null,
+          "bspRepaymentPeriodActual": null,
+          "warningMessage": null,
+          "ulPeriodEndDate": null,
+          "createdOn": null,
+          "createdBy": null,
+          "lastModifiedOn": null,
+          "lastModifiedBy": null
+        }
+      ],
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_ReStructure_Tenor2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/",
+    "payload": {
+      "newLoanClosedDate": "2023-02-08",
+      "restructureDate": "2020-09-07",
+      "loanId": 203,
+      "version": 2,
+      "newLoanModel": [
+        {
+          "identifier": null,
+          "periodNumber": 1,
+          "periodFrequency": {
+            "value": 31,
+            "term": "MONTHS"
+          },
+          "calculationMethod": "INO",
+          "principalRepayFrequency": {
+            "value": 0,
+            "term": "MONTHS"
+          },
+          "amortizationPeriod": {
+            "value": 0,
+            "term": "MONTHS"
+          },
+          "interestRepayFrequency": {
+            "value": 1,
+            "term": "MONTHS"
+          },
+          "outstandingInterestRepaymentMethod": "SIN",
+          "compoundingFrequency": {
+            "value": 0,
+            "term": "MONTHS"
+          },
+          "interestRateType": "FIXED",
+          "interestKey": null,
+          "interestKeyName": null,
+          "interestKeyValue": null,
+          "refFloorRate": null,
+          "refCapRate": null,
+          "interestRate": 2.8,
+          "interestRepricingFrequency": null,
+          "interestRepricingMethod": null,
+          "firstRateResetDate": null,
+          "initialPrincipal": 298489.14,
+          "principalForPeriod": 0,
+          "principalAmount": 0,
+          "balloonAmount": 298489.14,
+          "outstandingBalance": 0,
+          "installmentAmount": 0,
+          "referenceRateIndex": 0,
+          "gnOipr": null,
+          "isLastPeriod": true,
+          "fixBalloon": false,
+          "fixPrincipalOrInstallment": true,
+          "bspRepaymentPeriod": null,
+          "ulCalculationMethod": null,
+          "restructuringState": "F",
+          "principalForNextPeriodForBrokenModel": null,
+          "outstandingForNextPeriodForBrokenModel": 0,
+          "periodFrequencyForNextPeriod": null,
+          "bspRepaymentPeriodActual": null,
+          "warningMessage": null,
+          "ulPeriodEndDate": null,
+          "createdOn": null,
+          "createdBy": null,
+          "lastModifiedOn": null,
+          "lastModifiedBy": null
+        }
+      ],
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_ReStructure_Tenor3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/203",
+    "payload": []
+  }
+]

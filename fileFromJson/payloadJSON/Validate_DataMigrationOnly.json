@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_DataMigrationOnly1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/mambumigration/migrate/jr_ea0800b0ff7dc9bbbe22080d407273c494c73fc79ab16bb95859cde690368e81",
+		"payload": []
+}
+]

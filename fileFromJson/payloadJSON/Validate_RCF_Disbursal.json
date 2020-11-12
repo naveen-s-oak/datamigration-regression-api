@@ -1,0 +1,41 @@
+[
+  {
+    "apiName": "Validate_RCF_Disbursal1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/transaction/disburseLoan",
+    "payload": {
+      "disbursementDate": "2020-10-27",
+      "disbursementAmount": 225000,
+      "repaymentDateMethod": "SPD",
+      "firstRepaymentDate": "2020-12-17",
+      "feeCollectionMethod": "NETOFF",
+      "finalDisbursementAmount": 225000,
+      "actualCustomerPayout": 225000,
+      "loanClosedDate": "2025-09-17",
+      "firstRateResetDate": "2020-12-17",
+      "interpolatedRate": 0,
+      "holidayEnabled": true,
+      "transactionSource": "TSaccAsset",
+      "channelId": null,
+      "showPaymentChannel": false,
+      "feeList": [],
+      "loanId": 217,
+      "version": 10,
+      "externalId": null,
+      "channel": null,
+      "loanModelFlags": [
+        {
+          "periodNumber": 1,
+          "fixBalloon": false,
+          "fixPrincipalOrInstallment": true
+        }
+      ]
+    }
+  },
+  {
+    "apiName": "Validate_RCF_Disbursal2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/transaction/217",
+    "payload": []
+  }
+]

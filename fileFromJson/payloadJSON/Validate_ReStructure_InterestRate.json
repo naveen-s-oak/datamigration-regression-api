@@ -1,0 +1,54 @@
+[
+  {
+    "apiName": "Validate_ReStructure_InterestRate1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/previewForRestructure",
+    "payload": {
+      "newInterestSettings": {
+        "newInterestRateType": "FIXED",
+        "newMargin": "3.2",
+        "newIndex": null,
+        "newFloorRate": null,
+        "newCapRate": null,
+        "interpolatedRate": null,
+        "applyRateReset": null,
+        "newInterestRepricingFrequency": null,
+        "newInterestRepricingMethod": null,
+        "newNextRateResetDate": null
+      },
+      "restructureDate": "2020-09-07",
+      "loanId": 203,
+      "version": 4,
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_ReStructure_InterestRate2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/",
+    "payload": {
+      "newInterestSettings": {
+        "newInterestRateType": "FIXED",
+        "newMargin": "3.2",
+        "newIndex": null,
+        "newFloorRate": null,
+        "newCapRate": null,
+        "interpolatedRate": null,
+        "applyRateReset": null,
+        "newInterestRepricingFrequency": null,
+        "newInterestRepricingMethod": null,
+        "newNextRateResetDate": null
+      },
+      "restructureDate": "2020-09-07",
+      "loanId": 203,
+      "version": 4,
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_ReStructure_InterestRate3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/203",
+    "payload": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "apiName": "Validate_ManualInterest_Capitalisation1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/transaction/capitalizeInterest",
+    "payload": {
+      "loanId": 196,
+      "date": "2020-10-15",
+      "duesList": [],
+      "interestAccruedButNotPaid": 274.29,
+      "capitalizeInterestAccruedButNotPaid": true
+    }
+  },
+  {
+    "apiName": "Validate_ManualInterest_Capitalisation2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/196",
+    "payload": []
+  }
+]

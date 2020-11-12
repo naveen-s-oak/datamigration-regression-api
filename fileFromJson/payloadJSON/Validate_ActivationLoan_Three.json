@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_ActivationLoan_Three1",
+		"apiMethod": "PUT",
+		"apiPath": "/api/portfolio/v1/loanmigration/transferInCA/120",
+		"payload": []
+ }
+]

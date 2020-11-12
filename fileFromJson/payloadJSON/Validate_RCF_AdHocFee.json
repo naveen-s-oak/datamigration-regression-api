@@ -1,0 +1,24 @@
+[
+  {
+    "apiName": "Validate_RCF_AdHocFee1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/loanaccount/adhocFee",
+    "payload": {
+      "loanId": 219,
+      "feeId": 34,
+      "eventType": "ADHOCFEE",
+      "feeAmount": 15,
+      "capitalizeToPrincipal": false,
+      "remarks": "Fee for Arrangement",
+      "version": 2,
+      "adhocFeeDate": "2020-11-02",
+      "feesAccrued": false
+    }
+  },
+  {
+    "apiName": "Validate_RCF_AdHocFee2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/getFeeCollectionStatus/219",
+    "payload": []
+  }
+]

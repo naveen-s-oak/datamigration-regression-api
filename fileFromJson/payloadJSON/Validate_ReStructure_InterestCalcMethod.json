@@ -1,0 +1,34 @@
+[
+  {
+    "apiName": "Validate_ReStructure_InterestCalcMethod1",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/previewForRestructure",
+    "payload": {
+      "newDaysInMonthType": "ACTUAL",
+      "newDaysInYearType": "DAYS_365",
+      "restructureDate": "2020-09-07",
+      "loanId": 203,
+      "version": 7,
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_ReStructure_InterestCalcMethod2",
+    "apiMethod": "POST",
+    "apiPath": "/api/portfolio/v1/restructure/",
+    "payload": {
+      "newDaysInMonthType": "ACTUAL",
+      "newDaysInYearType": "DAYS_365",
+      "restructureDate": "2020-09-07",
+      "loanId": 203,
+      "version": 7,
+      "holidayEnabled": true
+    }
+  },
+  {
+    "apiName": "Validate_ReStructure_InterestCalcMethod3",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/203",
+    "payload": []
+  }
+]

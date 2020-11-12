@@ -1,0 +1,17 @@
+[
+  {
+    "apiName": "Validate_UNDOFeeWaiver1",
+    "apiMethod": "PUT",
+    "apiPath": "/api/portfolio/v1/transaction/undo/7783",
+    "payload": {
+      "reversalRemarks": "UNDO",
+      "version": 7
+    }
+  },
+  {
+    "apiName": "Validate_UNDOFeeWaiver2",
+    "apiMethod": "GET",
+    "apiPath": "/api/portfolio/v1/loanaccount/getFeeCollectionStatus/226",
+    "payload": []
+  }
+]

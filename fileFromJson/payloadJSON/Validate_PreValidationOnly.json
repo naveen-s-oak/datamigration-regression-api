@@ -1,0 +1,7 @@
+[{
+		"apiName": "Validate_PreValidationOnly1",
+		"apiMethod": "POST",
+		"apiPath": "/api/portfolio/v1/mambumigration/validate?creditArrangement=VNR920,QSF608,XYI164,KMI500,PUH523,CXB097,GJQ057,FTQ643,FTQ643,JZO670,BUI408,XCH181,JWT067,PDG102",
+		"payload": []
+}
+]
